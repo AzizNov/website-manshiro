@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "name": "Tinta Canon 745/746",
+    "price": "Rp. 150.000,-",
+    "imageUrl": "/products/tinta-canon-745.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Tinta Brother 5000",
+    "price": "Rp. 50.000,-",
+    "imageUrl": "/products/tinta-brother-5000.png"
+  },
+  {
+    "id": 3,
+    "name": "Tinta Epson 664",
+    "price": "Rp. 50.000,-",
+    "imageUrl": "/products/tinta-epson-664.png"
+  },
+  {
+    "id": 4,
+    "name": "Tinta Brother LC563",
+    "price": "Rp. 50.000,-",
+    "imageUrl": "/products/tinta-brother-lc563.png"
+  },
+  {
+    "id": 5,
+    "name": "Cartridge Canon 810",
+    "price": "Rp. 170.000,-",
+    "imageUrl": "/products/cartridge-canon-810.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Cartridge Hp 802",
+    "price": "Rp. 60.000,-",
+    "imageUrl": "/products/cartridge-hp-802.png"
+  },
+  {
+    "id": 7,
+    "name": "Toner Puji Xerox 315",
+    "price": "Rp. 400.000,-",
+    "imageUrl": "/products/toner-puji-xerox.png"
+  },
+  {
+    "id": 8,
+    "name": "Tinta Epson 003",
+    "price": "Rp. 85.000,-",
+    "imageUrl": "/products/tinta-epson-003.png"
+  }
+]

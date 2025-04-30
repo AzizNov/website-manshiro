@@ -1,0 +1,24 @@
+---
+import { Image } from "astro:assets"
+import products from "../data/products.json"
+
+const generateMessage = (name :string, price: string) => `Halo, saya tertarik dengan produk "${name}" (${price}). Saya ingin menanyakan lebih lanjut tentang produk ini.`
+---
+
+<div class="container p-2 mx-auto lg:p-16">
+  <h1 class="mb-8 text-xl font-semibold text-center">Produk Unggulan Kami</h3>
+  <div class="grid grid-cols-2 gap-2 lg:grid-cols-4 lg:gap-12">
+    {products.map(product => (
+      <div class="flex flex-col items-center justify-center gap-4 p-4 rounded-lg shadow-md bg-white">
+        <Image src={product.imageUrl} alt={product.name} width={100} height={100} loading="lazy" class="h-40 w-fit hover:scale-105"/>
+        <p class="font-semibold text-center text-md lg:text-lg line-clamp-1">{product.name}</p>
+        <p>{product.price}</p>
+          <a href={`https://wa.me/628786412004?text=${generateMessage(product.name, product.price)}`} target="_blank">
+            <button class="p-2 px-4 text-sm text-white bg-accent cursor-pointer rounded-xl">
+            Beli Sekarang
+            </button>
+          </a>
+      </div>
+    ))}
+  </div>
+</div>

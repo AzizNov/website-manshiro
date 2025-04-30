@@ -1,0 +1,27 @@
+[
+  {
+    "id": 1,
+    "merk": "Canon",
+    "imageUrl": "/merk/merk-canon.png"
+  },
+  {
+    "id": 2,
+    "merk": "Epson",
+    "imageUrl": "/merk/merk-epson.png"
+  },
+  {
+    "id": 3,
+    "merk": "Samsung",
+    "imageUrl": "/merk/merk-samsung.png"
+  },
+  {
+    "id": 4,
+    "merk": "Xerox",
+    "imageUrl": "/merk/merk-xerox.png"
+  },
+  {
+    "id": 5,
+    "merk": "Brother",
+    "imageUrl": "/merk/merk-brother.png"
+  }
+]

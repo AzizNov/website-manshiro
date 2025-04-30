@@ -1,0 +1,73 @@
+---
+import { Icon } from "astro-icon/components"
+import { Image } from "astro:assets"
+
+const message = "Halo, sata tertarik dengan produk anda";
+---
+<footer class="bg-primary">
+  <div id="kontak">
+    <div class="container grid gap-4 p-8 mx-auto text-white lg:grid-cols-3 grid-col-1 lg:gap-16">
+      <div >
+        <p class="mt-2 text-justify"><span class="font-semibold">Manshiro</span> Bergerak Dibidang tinta toner dan cartridge. Kami melayani segala macam jual beli tinta toner dan cartridge baru dan bekas di seluruh indonesia, melayani lelangang kantor, Berani Bayar Dengan Harga Tinggi</p>
+      </div>
+      <div class="flex flex-col gap-2 lg:items-center">
+        <p class="text-lg font-semibold lg:mb-2">Tautan Cepat</p>
+        <ul>
+          <li><a href="#beranda">&gt; Beranda</a></li>
+          <li><a href="#tentang-kami">&gt; Tentang Kami</a></li>
+          <li><a href="#produk">&gt; Produk</a></li>
+          <li><a href="#kontak">&gt; Kontak</a></li>
+        </ul>
+      </div>
+      <div class="flex flex-col gap-4">
+        <div>
+          <p class="font-semibold text lg lg:mb-4">Informasi Kontak</p>
+          <div class="flex gap-1 items-start">
+            <Icon name="ic:baseline-place" size={60} />
+            <a href="https://maps.app.goo.gl/1qFyzMdCW8ovKVem8" target="_blank" >
+              Jl. Karang Tengah Permai Jl. Sungai Cantiga No.164, RT.001/RW.010, Karang Tim., Kec. Ciledug, Kota Tangerang, Banten 15157
+            </a>
+          </div>
+          <div  class="flex gap-2 items-center">
+            <Icon name="ic:baseline-whatsapp" size={22}/>
+            <a href=`https://wa.me/628786412004?text=${message}` target="_blank">
+              0878 6412 004
+            </a>
+          </div>
+        </div>
+        <div class="flex flex-col gap-3">
+          <p class="font-semibold">Ikuti Kami</p>
+          <div class="flex gap-4">
+            <div class="flex flex-col gap-1 items-center text-sm">
+              <a href="https://www.facebook.com/mario.alvarez.92372" aria-label="profile facebook" target="_blank">
+                <Icon name="simple-icons:facebook" size={30}/>
+              </a>
+              <p>Facebook</p>
+            </div>
+            <div class="flex flex-col gap-1 items-center text-sm">
+              <a href="https://www.instagram.com/afrizal.saputra11/" aria-label="profile facebook" target="_blank">
+                <Icon name="simple-icons:instagram" size={30}/>
+              </a>
+              <p>Instagram</p>
+            </div>
+            <div class="flex flex-col gap-1 items-center text-sm">
+              <a href="#" aria-label="profile tiktok" target="_blank">
+                <Icon name="simple-icons:tiktok" size={30}/>
+              </a>
+              <p>Tiktok</p>
+            </div>
+            <div class="flex flex-col gap-1 items-center text-sm">
+              <a href="https://www.tokopedia.com/bintang-print" aria-label="profile tokopedia" target="_blank">
+                <Icon name="arcticons:tokopedia" size={32}/>
+              </a>
+              <p>Tokopedia</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="p-2 bg-accent">
+      <p class="text-center text-white">&copy;2025 Manshiro</p>
+    </div>
+  </div>
+</footer>

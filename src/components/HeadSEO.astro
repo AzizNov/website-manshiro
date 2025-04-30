@@ -1,0 +1,27 @@
+---
+import { SEO } from 'astro-seo';
+
+const metadata = {
+  site_name: 'Manshiro',
+  title: 'Jual Beli Tinta Baru & Bekas Berkualitas | Manshiro',
+  description: 'Pusat jual beli tinta toner baru dan bekas. Terima lelangan Ex Kantor dengan harga tinggi. Hubungi Kontak Kami. Siap jemput khusus Jabodetabek.',
+  canonicalURL: 'https://manshiro.com',
+  robots: true,
+  og: {
+    image: 'https://manshiro.com/images/og-image.jpg',
+    type: 'website'
+  },
+  openGraph: {
+    basic: {
+      type: "website",
+      title: "Jual Beli Tinta Baru & Bekas Berkualitas | Manshiro",
+      image: "/image-about.png"
+    },
+    image :{
+      alt: 'Thumbnail'
+    }
+  }
+};
+---
+
+<SEO {...metadata}/>

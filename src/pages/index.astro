@@ -1,0 +1,24 @@
+---
+import Header from '../components/Header.astro';
+import Hero from '../components/Hero.astro';
+import Layout from '../layouts/Layout.astro';
+import About from '../components/About.astro';
+import Footer from '../components/Footer.astro';
+import Product from '../components/Product.astro';
+import Cta from '../components/Cta.astro';
+import Faq from '../components/Faq.astro';
+import Maps from '../components/Maps.astro';
+---
+
+<Layout>
+	<Header/>
+	<main id="beranda" class="bg-secondary">
+		<Hero />
+		<About/>
+		<Product />
+		<Cta/>
+		<Faq />
+		<Maps />
+	</main>
+	<Footer/>
+</Layout>

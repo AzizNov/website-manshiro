@@ -1,0 +1,11 @@
+---
+import { Image } from "astro:assets";
+import brands from "../data/brands.json"
+---
+
+<div class="mx-2 overflow-hidden whitespace-nowrap lg:mx-48 md:text-center">
+  <div class="inline-flex w-max md:animate-none animate-scroll-left gap-8 lg:gap-16">
+  {brands.map(brand => (
+    <Image src={brand.imageUrl} alt={brand.merk} width={100} height={50} loading="lazy" class="scale-75 cursor-pointer h-fit grayscale-100 hover:grayscale-0 lg:scale-100"/>
+  ))}
+</div>

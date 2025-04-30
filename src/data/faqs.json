@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "question": "Apa itu Manshiro?",
+    "answer": "RizalCartridge menjual tinta baru & bekas berkualitas tinggi dengan harga bersahabat."
+  },
+  {
+    "id": 2,
+    "question": "Apakah melayani pengiriman ke luar kota?",
+    "answer": "Ya, kami melayani pengiriman ke seluruh Indonesia."
+  },
+  {
+    "id": 3,
+    "question": "Bagaimana cara memesan produk?",
+    "answer": "Anda bisa memesan langsung melalui website kami atau menghubungi kami lewat WhatsApp untuk pembelian dan konsultasi produk."
+  },
+  {
+    "id": 5,
+    "question": "Bagaimana cara mengetahui tipe cartridge yang cocok untuk printer saya?",
+    "answer": "Anda bisa cek tipe cartridge di label printer atau buku panduan, atau langsung konsultasikan dengan kami melalui WhatsApp agar kami bantu mencarikan yang cocok."
+  }
+]

@@ -1,0 +1,21 @@
+---
+import { Image } from "astro:assets"
+---
+
+<div id="tentang-kami" class="flex flex-col gap-2 md:gap-20 container p-4 mx-auto lg:p-8 scroll-mt-10 md:scroll-mt-20">
+  <h1 class="text-3xl md:text-4xl font-semibold text-center">Tentang Kami</h1>
+  <div class="flex flex-col items-center -mt-8 lg:flex-row lg:gap-12">
+      <Image src="/image-about.png" alt="image-about" width={500} height={500} class="scale-75 lg:scale-90 rounded-xl" loading="lazy"/>
+    <div class="space-y-2 text-justify -mt-9 text-gray-700 md:text-xl">
+      <h2 class="mb-2 text-xl md:text-2xl text-black font-semibold text-left">Manshiro - Original Ink Computer</h2>
+      <p>Selamat datang di Manshiro.com, destinasi terpercaya Anda untuk segala kebutuhan tinta berkualitas tinggi! Kami memahami betapa pentingnya kualitas tinta dalam setiap cetakan, dan itulah mengapa kami berkomitmen untuk menyediakan berbagai pilihan tinta terbaik untuk printer Anda.
+      </p>
+      <p>
+        Manshiro hadir untuk memberikan solusi mudah, cepat, dan terpercaya bagi Anda yang membutuhkan tinta berkualitas. Kami menawarkan produk tinta dengan berbagai pilihan jenis dan merek, memastikan Anda menemukan yang sesuai dengan kebutuhan bisnis maupun personal.
+      </p>
+      <p>
+        Dengan dukungan tim yang berpengalaman dan pelayanan yang ramah, kami siap membantu Anda mendapatkan tinta yang tepat sesuai kebutuhan.
+      </p>
+    </div>
+  </div>
+</div>

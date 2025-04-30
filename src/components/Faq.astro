@@ -1,0 +1,24 @@
+---
+import faqs from "../data/faqs.json"
+---
+
+<div>
+  <h1 class="text-center font-semibold text-xl md:text-2xl">Pertanyaan Yang Sering Diajukan</h1>
+  <p class="text-center text-md md:text-xl text-gray-700">Pelajari lebih lanjut tentang kami</p>
+
+  <!-- accordion -->
+  <div class="w-full max-w-xl mx-auto my-4">
+  <div class="border-gray-600 rounded-lg overflow-hidden shadow mx-4">
+    {faqs.map(faq => (
+      <details class="group border-t border-t-gray-200">
+        <summary class="cursor-pointer text-gray-800 px-4 py-3 font-semibold transition">
+          {faq.question}
+        </summary>
+        <div class="px-4 py-3 bg-white text-gray-800">
+          {faq.answer}
+        </div>
+      </details>
+    ))}
+  </div>
+</div>
+</div>

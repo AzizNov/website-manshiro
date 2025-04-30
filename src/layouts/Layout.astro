@@ -1,0 +1,29 @@
+---
+import HeadSEO from "../components/HeadSEO.astro"
+import "../styles/global.css"
+---
+
+<!doctype html>
+<html lang="id" class="scroll-smooth">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/x-icon" href="/favicon.ico"/>
+		<title>Manshiro Cartridge</title>
+		<HeadSEO />
+		<!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16656942626"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        window.dataLayer.push(arguments);
+      }
+      window.gtag("js", new Date());
+      window.gtag("config", "AW-16656942626");
+    </script>
+	</head>
+	<body class="font-inter">
+		<slot />
+	</body>
+</html>
